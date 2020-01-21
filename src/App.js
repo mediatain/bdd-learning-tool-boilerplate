@@ -6,16 +6,35 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Welcome to Mediatain BDD learning platform. <br />
+          Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="Link-div">
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+          <a
+            className="App-link"
+            href="https://en.wikipedia.org/wiki/Behavior-driven_development"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn BDD
+          </a> 
+          <a
+            className="App-link"
+            href="https://cucumber.io/docs/cucumber/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn Cucumber
+          </a>              
+        </div>
       </header>
     </div>
   );
